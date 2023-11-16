@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assignment_2
+namespace Assignment_2___3
 {
     public class CameraController : MonoBehaviour
     {

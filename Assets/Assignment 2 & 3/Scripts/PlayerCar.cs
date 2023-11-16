@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Assignment_2
+namespace Assignment_2___3
 {
     public class PlayerCar : CarController
     {
@@ -11,8 +11,8 @@ namespace Assignment_2
             var hAxis = Input.GetAxis("Horizontal");
             var vAxis = Input.GetAxis("Vertical");
 
-            targetTurnSpeed = hAxis * turnSpeed;
-            targetSpeed = vAxis * speed;
+            TargetTurnSpeed = hAxis * TurnSpeed;
+            TargetSpeed = vAxis * Speed;
         }
     }
 }

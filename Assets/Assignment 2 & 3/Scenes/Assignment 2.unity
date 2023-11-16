@@ -441,10 +441,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21cac6b35ce0cea4db14d8fa3c992dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  turnSpeed: 180
-  turnAcceleration: 5
-  acceleration: 2
+  Speed: 10
+  TurnSpeed: 180
+  TurnAcceleration: 5
+  Acceleration: 5
+  colliderBounds: {x: 1, y: 1, z: 1}
+  other: {fileID: 2120982694}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,10 +586,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b308d02fb4d83f44d89679ef6e0a09ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  turnSpeed: 120
-  turnAcceleration: 5
-  acceleration: 2
+  Speed: 5
+  TurnSpeed: 180
+  TurnAcceleration: 2
+  Acceleration: 2
+  colliderBounds: {x: 1, y: 1, z: 1}
+  other: {fileID: 735144402}
 --- !u!65 &2120982695
 BoxCollider:
   m_ObjectHideFlags: 0

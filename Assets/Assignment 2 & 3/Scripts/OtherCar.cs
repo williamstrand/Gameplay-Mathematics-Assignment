@@ -1,4 +1,4 @@
-﻿namespace Assignment_2
+﻿namespace Assignment_2___3
 {
     public class OtherCar : CarController
     {
@@ -6,8 +6,8 @@
         {
             base.Update();
 
-            targetTurnSpeed = turnSpeed;
-            targetSpeed = speed;
+            TargetTurnSpeed = TurnSpeed;
+            TargetSpeed = Speed;
         }
     }
 }
