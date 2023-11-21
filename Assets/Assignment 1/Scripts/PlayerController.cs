@@ -28,7 +28,7 @@ namespace Assignment_1
             var forwardInput = Input.GetAxis("Vertical");
 
             var moveDir = new Vector3(horizontalInput, 0, forwardInput).normalized;
-            transform.position += speed * Time.fixedDeltaTime * moveDir;
+            transform.Translate(speed * Time.fixedDeltaTime * moveDir);
         }
     }
 }
